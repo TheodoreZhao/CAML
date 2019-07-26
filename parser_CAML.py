@@ -120,8 +120,8 @@ def build_parser():
         help='pooling type for attention')
     ps('--word_pooling', dest='word_pooling', type=str, default='MEAN',
         help='pooling type for word attention')
-    #ps('--num_class', dest='num_class', type=int,
-    #   default=2, help='self explainatory..(not used for recommendation)')
+    ps('--num_class', dest='num_class', type=int,
+      default=2, help='self explainatory..(not used for recommendation)')
     ps('--all_dropout', action='store_true',
        default=False, help='to dropout the embedding layer or not')
     ps("--qmax", dest="qmax", type=int, metavar='<int>',
