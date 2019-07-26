@@ -1,0 +1,6 @@
+keras
+sklearn
+scipy
+tqdm
+nltk
+visdom==0.1.8.5
